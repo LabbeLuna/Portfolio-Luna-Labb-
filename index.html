@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Luna Labbé Cazabonne</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Luna Labbé Cazabonne</h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#objectif">Objectif</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>À propos de moi</h2>
+    <p>Je m'appelle <strong>Luna Labbé Cazabonne</strong>, j’ai 19 ans et je suis actuellement étudiante en <strong>Licence de Sciences de l’Éducation – 2e année</strong>. Passionnée par l’apprentissage et le développement humain, je suis curieuse et investie dans tout ce que j’entreprends.En dehors de mes études, je suis une grande amatrice de natation. Nager est pour moi une manière de me ressourcer, de me concentrer et de trouver un équilibre entre mon esprit et mon corps. C'est un sport qui me permet de me dépasser tout en me reconnectant à moi-même, et j'apprécie particulièrement cette sensation de liberté que procure l'eau.           
+  J'apprécie particulièrement la lecture d'histoires criminelles, qu'elles soient basées sur des faits réels ou imaginaires. Cela m'aide à développer mon esprit d'analyse et ma capacité à comprendre des situations complexes. Cette passion m'apporte également un regard attentif aux détails, ce qui est une qualité que j'applique dans mon travail quotidien.                                      </p>
+  </section>
+
+  <section id="parcours" class="parcours">
+    <h2>Mon parcours</h2>
+    <p>Mon parcours universitaire en Sciences de l’Éducation m’a permis de découvrir la richesse des relations humaines, de mieux comprendre les processus d’apprentissage et de renforcer ma conviction d’évoluer dans le domaine de l’enseignement.</p>
+    <p>Grâce à mes expériences personnelles et académiques, j’ai développé des compétences en communication, en pédagogie et en accompagnement, que je souhaite continuer à approfondir.J'ai obtenu mon Bac général avec les spécialités HGGSP (Histoire-Géographie, Géopolitique et Sciences Politiques) et SES (Sciences Économiques et Sociales). La spécialité HGGSP m'a permis d'approfondir ma compréhension des enjeux géopolitiques et des dynamiques historiques, tandis que la spécialité SES m'a offert une perspective analytique sur les phénomènes économiques et sociaux, ainsi qu'une meilleure appréhension des comportements humains et des structures sociétales.</p>
+  </section>
+
+  <section id="objectif" class="objectif">
+    <h2>Mon objectif</h2>
+    <p>Mon objectif professionnel est de <strong>devenir professeure des écoles</strong>. Ce choix s’inscrit dans une véritable vocation : celle de transmettre, d’accompagner et de contribuer au développement des enfants. J’aime le contact humain, l’échange et la possibilité d’avoir un impact positif sur les parcours de vie.</p>
+    <p>Être enseignante, pour moi, c’est avant tout <strong>travailler avec le cœur</strong> et participer à la construction de futurs citoyens épanouis et curieux.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Me contacter</h2>
+    <p>Tu veux échanger avec moi ou me contacter pour une opportunité ? Remplis le formulaire ci-dessous 💌</p>
+
+    <form id="contactForm">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <p id="formMessage" class="hidden"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Luna Labbé Cazabonne | Portfolio personnel</p>
+  </footer>
+
+  <button id="backToTop">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
